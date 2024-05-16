@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url("Assets/images/bg.jpg");
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    position: relative;
+
+}
+
+.box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    position: relative;
+
+    max-width: 150vh;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    padding: 10px;
+
+    color: black;
+    font-size: 20px
+}
+nav select{
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 20px
+
+}
+
+nav button:last-child {
+    background-color: red;
+}
+
+.hero {
+    color: white;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.hero> :first-child {
+    font-size: 45px;
+}
+
+.hero2 input {
+    padding: 10px 40px;
+    margin-top: 10px;
+    background-color: rgb(171, 168, 168);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.seprate {
+    height: 10px;
+    background-color: rgb(23, 23, 23);
+}
+.page1{
+    height:70vh;
+    background-color:black;
+}
+.left{
+    color:white;
+}

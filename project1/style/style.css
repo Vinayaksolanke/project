@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("../asset/pexel.png");
+
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 20px;
+    margin-right:20px;
+
+}
+.list{
+    display: flex;
+    align-items:center;
+    gap:60px;
+    /* weight:1500px; */
+    color:yellow;
+    list-style-type:none;
+    font-weight: 15000%;
+    max-width: max-content;
+
+
+
+}
+.list a{
+    color:yellow;
+    text-decoration: none;
+    /* font-weight:1500px; */
+}
+.button-small{
+    padding:7px 10px;
+    width: 90px;
+    height:40px;
+    text-align:center;
+    background-color:rgb(255, 0, 0);
+    color: white;
+    font-weight:bold;
+    border-radius: 10px;
+    margin-right:60px;
+    margin-top:30px;
+
+}
+.header img{
+    padding-top:20px;
+    padding-left: 30px;
+    
+}
+
+
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    font-size: 100px;
+    color:yellow;
+    margin-top: 30px;
+    font-weight: bold;
+    
+    font-family: 'Oswald', sans-serif;
+
+ 
+}
+.main p{
+    text-align: center;
+}
+.main button{
+    margin-top:20px;
+    margin-right:20px;
+    padding:12px;
+    width:150px;
+    background-color:rgb(111, 6, 6);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.main button:hover {
+    background-color: green;
+  }
+.foot{
+ position: absolute;
+ bottom: 15px;
+ right:15px;
+}
+.br{
+    text-align: center;
+}
